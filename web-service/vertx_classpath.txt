@@ -1,0 +1,5 @@
+src/main/resources
+bin
+out/production/web-service
+out/test/web-service
+build/deps

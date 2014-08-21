@@ -1,0 +1,19 @@
+{
+
+  // Java verticle
+  "main":"com.cad.ms.courseservice.CourseService",
+
+  // If your module is going to be registered in the Vert.x module registry you will also need the following
+  // mandatory fields
+  "description":"MS Course Service",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Robert van de Camp",
+
+  // Optional fields
+  "developers": ["Robert van de Camp"],
+  "keywords": ["courses", "mooc"],
+  "homepage": "url to your project page",
+
+  "auto-redeploy": true
+
+}

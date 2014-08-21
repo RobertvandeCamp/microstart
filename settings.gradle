@@ -1,0 +1,6 @@
+rootProject.name = 'microstart'
+
+
+include 'course-domain', 'course-service', 'web-service', 'starter'
+
+
