@@ -33,8 +33,8 @@ public class CourseService extends BusModBase {
 
     private JsonArray getCourses() {
         JsonArray courses = new JsonArray();
-        Course java = new Course("1", "Java");
         Course angular = new Course("3", "Angular");
+        Course java = new Course("1", "Java");
         Course scala = new Course("2", "Scala");
         try {
             courses.addObject(new JsonObject(OBJECT_MAPPER.writeValueAsString(scala)));
