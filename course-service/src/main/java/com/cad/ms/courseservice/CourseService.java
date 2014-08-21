@@ -35,8 +35,10 @@ public class CourseService extends BusModBase {
         JsonArray courses = new JsonArray();
         Course java = new Course("1", "Java");
         Course scala = new Course("2", "Scala");
+        Course angular = new Course("3", "Angular");
         try {
             courses.addObject(new JsonObject(OBJECT_MAPPER.writeValueAsString(java)));
+            courses.addObject(new JsonObject(OBJECT_MAPPER.writeValueAsString(angular)));
             courses.addObject(new JsonObject(OBJECT_MAPPER.writeValueAsString(scala)));
         } catch (JsonProcessingException e) {
             e.printStackTrace();
