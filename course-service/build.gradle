@@ -55,7 +55,8 @@ dependencies {
 //  provided "org.codehaus.groovy:groovy-all:$groovyVersion"
 //  provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
 
-    compile "com.cad.ms:course-domain:1.0.0-final"
+    compile project(":course-domain")
+
 }
 
 //configurations.all {
